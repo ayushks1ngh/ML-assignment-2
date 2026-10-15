@@ -1,0 +1,19 @@
+Dataset,Task,Algorithm,Metric,Score,Params,Best
+Mall_Customers.csv,Clustering,KMeans,Silhouette,0.4208,k=10 (auto),False
+Mall_Customers.csv,Clustering,KMeans,Silhouette,0.3041,k=5 (fixed),False
+Mall_Customers.csv,Clustering,Agglomerative,Silhouette,0.4176,k=10 (auto),False
+Mall_Customers.csv,Clustering,Agglomerative,Silhouette,0.287,k=5 (fixed),False
+Mall_Customers.csv,Clustering,DBSCAN,Silhouette,0.4746,"eps=0.5, min_samples=3, noise_frac=0.245 (auto)",True
+Mall_Customers.csv,Clustering,DBSCAN,Silhouette,0.2963,"eps=0.8, min_samples=7, noise_frac=0.21 (k=5 fixed)",False
+Mall_Customers.csv,Clustering,GaussianMixture,Silhouette,0.3972,k=10 (auto),False
+Mall_Customers.csv,Clustering,GaussianMixture,Silhouette,0.2216,k=5 (fixed),False
+Social_Network_Ads.csv,Classification,LogisticRegression,ROC_AUC,0.9106,"accuracy=0.8100, f1=0.6984",False
+Social_Network_Ads.csv,Classification,KNN,ROC_AUC,0.918,"accuracy=0.9100, f1=0.8767",False
+Social_Network_Ads.csv,Classification,SVM (RBF),ROC_AUC,0.9549,"accuracy=0.9000, f1=0.8649",True
+Social_Network_Ads.csv,Classification,DecisionTree,ROC_AUC,0.8759,"accuracy=0.8800, f1=0.8378",False
+Social_Network_Ads.csv,Classification,RandomForest,ROC_AUC,0.9238,"accuracy=0.9000, f1=0.8649",False
+Social_Network_Ads.csv,Classification,NaiveBayes,ROC_AUC,0.9475,"accuracy=0.8700, f1=0.8116",False
+insurance_pre.csv,Boosting,GradientBoosting,R2,0.8785,"rmse=4342.91, mae=2424.53",True
+insurance_pre.csv,Boosting,AdaBoost,R2,0.827,"rmse=5181.86, mae=4253.85",False
+insurance_pre.csv,Boosting,XGBoost,R2,0.8439,"rmse=4922.69, mae=2687.92",False
+insurance_pre.csv,Boosting,LightGBM,R2,0.8651,"rmse=4576.46, mae=2541.42",False
